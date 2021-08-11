@@ -1,0 +1,39 @@
+.allcontent {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  width: 50vw;
+  margin: 3rem 0;
+  border-radius: 10px;
+}
+
+.boxApp {
+  display: grid;
+  /* padding: 1rem 2.5rem; */
+  padding: 0.25rem;
+  margin: 0.25rem 1rem;
+  grid-template-columns: 1fr 50% 1fr 1fr 1fr 1fr;
+  font-weight: bold;
+  text-align: center;
+}
+
+.boxApp div {
+  padding: 0.2rem;
+}
+
+.boxApp div:nth-child(2),
+.boxApp div:nth-child(3),
+.boxApp div:nth-child(4),
+.boxApp div:nth-child(5),
+.boxApp div:nth-child(6) {
+  text-align: left;
+}
+
+.gold {
+  color: gold;
+}
+.silver {
+  color: silver;
+}
+.bronze {
+  color: brown;
+}
