@@ -27,11 +27,16 @@
 }
 
 .rank {
-  display: block;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  margin-right: 0.5rem;
+  padding: 0.25rem 0;
+  box-shadow: 0 0 8px -4px rgba(0, 0, 0, 1);
+  /* display: block;
   border-radius: 10px;
   margin-right: 0.5rem;
 
   padding: 0.25rem 0;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
-    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px; */
 }
